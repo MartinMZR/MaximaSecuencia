@@ -8,9 +8,9 @@ public class Algoritmo {
 		
 	public Algoritmo() {
 		
-		resultado = maxSubsequenceSumCubico(secuencia);
+		//resultado = maxSubsequenceSumCubico(secuencia);
 		//resultado = maxSubsequenceSumCuadratico(secuencia);
-		//resultado = maxSubsequenceSumLineal(secuencia);
+		resultado = maxSubsequenceSumLineal(secuencia);
 		imprimirResultado();
 	}
 	
@@ -58,7 +58,7 @@ public class Algoritmo {
 	 * @param a Secuencia de entrada
 	 * @return resutado de la suma
 	 */
-	private int maxSubsequenceCuadratico(int[] a) {
+	private int maxSubsequenceSumCuadratico(int[] a) {
 		
 		int maxSum = 0;
 		
